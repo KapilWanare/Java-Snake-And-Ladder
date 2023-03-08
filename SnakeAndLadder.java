@@ -1,4 +1,4 @@
-public class UC4
+public class UC5
 {
     public static void main(String[] args)
     {
@@ -34,6 +34,10 @@ public class UC4
                 if(positionFirstPlayer < 0)
                 {
                     positionFirstPlayer = 0;
+                }
+                if(positionFirstPlayer > 100)
+                {
+                    positionFirstPlayer -= RollDice;
                 }
                 System.out.println();
             }
